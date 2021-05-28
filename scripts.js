@@ -3,7 +3,7 @@ const menuElement = document.querySelector('#menu')
 fetch('https://codice-boca.web.app/menu')
   .then(response => response.json())
   .then(menuItems => {
-    
+    console.log(menuItems)
     const menuCards = menuItems.map(recipe => {
       console.log(recipe)
 
