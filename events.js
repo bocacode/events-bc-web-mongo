@@ -1,7 +1,7 @@
 const menuElement = document.querySelector('#menu')
 
 // fetch('http://52.90.190.236:5000/customers')
-fetch('http://localhost:5000/events')
+fetch('http://52.90.190.236:5000/events')
   .then(response => response.json())
   // .then(data => console.log(data))
   .then(menuItems => {
