@@ -10,6 +10,7 @@ fetch('http://52.90.190.236:5000/events')
       console.log(event)
 
       return `<div class="menu-item">
+          <img src="${event.image}" alt="${event.title}" />
           <h3> Title: ${event.title} </h3>
           <p> Date: ${event.date}</p>
           <p> Description: ${event.description}</p>
