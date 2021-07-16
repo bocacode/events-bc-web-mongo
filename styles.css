@@ -9,7 +9,8 @@
 body {
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background: url(/images/menu-background.jpeg);
+  /* background: url(/images/menu-background.jpeg); */
+  background: url(https://happygreenacres.com/wp-content/uploads/2017/07/events-page-background.jpg);
   background-size: cover;
 }
 
@@ -27,10 +28,11 @@ li {
 }
 
 .container {
-  background-image: url(./images/700x700.webp);
+  /* background-image: url(./images/700x700.webp); */
+  background-image: url('http://media-api.xogrp.com/images/46ef7f1f-581c-4c73-b863-079bc01f3510');
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center -190px;
+  background-position: center -330px;
 
   max-width: 1024px;
   background-color: white;
