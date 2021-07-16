@@ -1,12 +1,12 @@
 const menuElement = document.querySelector('#menu')
 
-fetch('http://52.90.190.236:5000/customers')
+fetch('http://52.90.190.236:5000/orders')
 // fetch('http://localhost:5000/orders')
   .then(response => response.json())
   // .then(data => console.log(data))
-  .then(menuItems => {
-    console.log(menuItems)
-    const menuCards = menuItems.map(order => {
+  .then(orders => {
+    console.log(orders)
+    const menuCards = orders.map(order => {
       console.log(order)
 
       return `<div class="menu-item">
